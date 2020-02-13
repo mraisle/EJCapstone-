@@ -21,7 +21,7 @@ library(googlesheets)
 
 
 
-northhampton <- read.csv(here("geocoded_csv/NH_rawarc.csv"))
+northhampton <- read.csv(here("geocoded_csv/NH_cleaner.csv"))
 
 
 cleaner <- subset(northhampton, select = -c(Status,Score,Match_type,
@@ -31,4 +31,6 @@ cleaner <- subset(northhampton, select = -c(Status,Score,Match_type,
                                       MetroArea,Territory,Zone,LangCode,Distance,ExInfo,ResultID))
 
 write.csv(cleaner, here("geocoded_csv/NH_cleaner.csv"))
+
+
 
