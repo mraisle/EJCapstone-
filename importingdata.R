@@ -21,7 +21,8 @@ library(googlesheets)
 
 
 
-HERT <- read.csv(here("geocoded_csv/HERT_rawarc.csv"))
+NH <- read.csv(here("geocoded_csv/NH_cleaned.csv"))
+cleaner <- NH
 
 
 cleaner <- subset(HERT, select = -c(Status,Score,Match_type,
@@ -40,14 +41,34 @@ cleaner <- subset(cleaner, select = -c(IN_Addre_1, IN_Addre_2, IN_Neighbo))
 
 cleaner <- subset(cleaner, select = -c(IN_Subregi,IN_PostalE, IN_Country,USER_lon,USER_lat))
 
-#cleaner$Subregion[16] = "Northampton County"
+cleaner <- subset(cleaner, select = -c(IN_Address,IN_City, IN_Region,IN_Postal))
+
+
+
+
+cleaner$RegionAbbr[65] = "NC"
+cleaner$Region[65] = "North Carolina"
+cleaner$Subregion[65] = "Halifax County"
 
 
 names(cleaner)[names(cleaner)=="Subregion"] <- "County"
+names(cleaner)= sub("USER_","",names(cleaner))
+Hertclean <- subset(Hertclean, select = -c(latlo))
 
 
-write.csv(cleaner, here("geocoded_csv/HERT_cleaned.csv"))
+
+write.csv(cleaner, here("geocoded_csv/NH_cleaned.csv"))
+
+NHclean <- cleaner
+
+Hertclean <- subset(Hertclean, select = -c(per_1,per_2))
 
 
+all <- rbind(twotogether,Hertclean)
+      
 
+colnames(twotogether)
+colnames(Hertclean)
+
+write.csv(all, here("geocoded_csv/allcounties_geocoded.csv"))
 
