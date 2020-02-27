@@ -1,0 +1,1713 @@
+<?xml version="1.0" encoding="UTF-8"?><MD_Metadata xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:srv="http://www.isotc211.org/2005/srv" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xalan="http://xml.apache.org/xalan" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gml="http://www.opengis.net/gml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.isotc211.org/2005/gmd">
+    <fileIdentifier>
+        <gco:CharacterString>096d7fe35f064cd0af5268e3baebd276</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+    </characterSet>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    <hierarchyLevelName>
+        <gco:CharacterString>dataset</gco:CharacterString>
+    </hierarchyLevelName>
+    <contact>
+        <CI_ResponsibleParty>
+            <individualName>
+                <gco:CharacterString>Dean Grantham</gco:CharacterString>
+            </individualName>
+            <organisationName>
+                <gco:CharacterString>NCDEQ, Waste Management</gco:CharacterString>
+            </organisationName>
+            <positionName>
+                <gco:CharacterString>GIS Coordinator</gco:CharacterString>
+            </positionName>
+            <contactInfo>
+                <CI_Contact>
+                    <phone>
+                        <CI_Telephone>
+                            <voice>
+                                <gco:CharacterString>(919) 707-8961</gco:CharacterString>
+                            </voice>
+                        </CI_Telephone>
+                    </phone>
+                    <address>
+                        <CI_Address>
+                            <deliveryPoint>
+                                <gco:CharacterString>217 W Jones St</gco:CharacterString>
+                            </deliveryPoint>
+                            <city>
+                                <gco:CharacterString>Raleigh</gco:CharacterString>
+                            </city>
+                            <administrativeArea>
+                                <gco:CharacterString>NC</gco:CharacterString>
+                            </administrativeArea>
+                            <postalCode>
+                                <gco:CharacterString>27603</gco:CharacterString>
+                            </postalCode>
+                            <country>
+                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                            </country>
+                            <electronicMailAddress>
+                                <gco:CharacterString>dean.grantham@ncdenr.gov</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                    <contactInstructions>
+                        <gco:CharacterString>http://portal.ncdenr.gov/web/wm/gis/data</gco:CharacterString>
+                    </contactInstructions>
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2015-11-06</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19139 Geographic Information - Metadata - Implementation Specification</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>2007</gco:CharacterString>
+    </metadataStandardVersion>
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Inactive Hazardous Sites</gco:CharacterString>
+                    </title>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2015-11-06</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="ISOTC211/19115">publication</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2020-01-09</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision" codeSpace="ISOTC211/19115">revision</CI_DateTypeCode>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>Amy Axon</gco:CharacterString>
+                            </individualName>
+                            <organisationName>
+                                <gco:CharacterString>North Carolina Division of Waste Management, Superfund Section</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Hydrogeologist</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>Raleigh, NC</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>amy.axon@ncdenr.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="ISOTC211/19115">pointOfContact</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>Charlotte Jesneck</gco:CharacterString>
+                            </individualName>
+                            <organisationName>
+                                <gco:CharacterString>Inactive Hazardous Waste Branch, Superfund Section, Division of Waste Management</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Branch Manager</gco:CharacterString>
+                            </positionName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital" codeSpace="ISOTC211/19115">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                </CI_Citation>
+            </citation>
+            <abstract>
+                <gco:CharacterString>This data set represents hazardous substance spill and disposal sites (as points) and includes active and inactive facilities and a variety of property types. The term “inactive” refers to the fact that cleanup was inactive at large numbers of sites at the time of program enactment. This data set includes closed remediation sites that have land use restrictions recorded as part of the remedy.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>The purpose of this data set is to provide a geographic representation of the location of inactive hazardous sites.</gco:CharacterString>
+            </purpose>
+            <credit>
+                <gco:CharacterString>NC DEQ</gco:CharacterString>
+            </credit>
+            <status>
+                <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="ISOTC211/19115">completed</MD_ProgressCode>
+            </status>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <individualName>
+                        <gco:CharacterString>Charlotte Jesneck</gco:CharacterString>
+                    </individualName>
+                    <organisationName>
+                        <gco:CharacterString>NC DEQ, Division of Waste Management, Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>Branch Manager</gco:CharacterString>
+                    </positionName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <phone>
+                                <CI_Telephone>
+                                    <voice>
+                                        <gco:CharacterString>(919) 707-8200</gco:CharacterString>
+                                    </voice>
+                                </CI_Telephone>
+                            </phone>
+                            <address>
+                                <CI_Address>
+                                    <deliveryPoint>
+                                        <gco:CharacterString>1646 Mail Service Center</gco:CharacterString>
+                                    </deliveryPoint>
+                                    <city>
+                                        <gco:CharacterString>Raleigh</gco:CharacterString>
+                                    </city>
+                                    <administrativeArea>
+                                        <gco:CharacterString>NC</gco:CharacterString>
+                                    </administrativeArea>
+                                    <postalCode>
+                                        <gco:CharacterString>27699-1646</gco:CharacterString>
+                                    </postalCode>
+                                    <country>
+                                        <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                    </country>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>charlotte.jesneck@ncdenr.gov</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                            <contactInstructions>
+                                <gco:CharacterString>http://deq.nc.gov/about/divisions/waste-management/superfund-section/inactive-hazardous-sites-program</gco:CharacterString>
+                            </contactInstructions>
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="ISOTC211/19115">originator</CI_RoleCode>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="quarterly" codeSpace="ISOTC211/19115">quarterly</MD_MaintenanceFrequencyCode>
+                    </maintenanceAndUpdateFrequency>
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>North Carolina</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="ISOTC211/19115">place</MD_KeywordTypeCode>
+                    </type>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Hazards</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Spills</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Regulatory</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Cleanup</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Monitoring</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Contaminant</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Environment</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Sites</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Health</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Compliance</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Remediation</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPA GIS Keyword Thesaurus</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>The North Carolina Inactive Hazardous Sites Response Act of 1987</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>DWM</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina Department of Environment and Natural Resources</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>IHSB</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>hazardous substances</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>remediation</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>inactive hazardous site</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>NC DENR</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Inactive Hazardous Sites Branch</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>Division of Waste Management</gco:CharacterString>
+                    </keyword>
+                    <keyword>
+                        <gco:CharacterString>North Carolina General Statute 130A-310</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>User</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>environment</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="ISOTC211/19115">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>ISO 19115 Topic Category</gco:CharacterString>
+                            </title>
+                            <date gco:nilReason="missing"/>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords>
+                    <keyword>
+                        <gco:CharacterString>Downloadable Data</gco:CharacterString>
+                    </keyword>
+                    <thesaurusName uuidref="723f6998-058e-11dc-8314-0800200c9a66"/>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <resourceConstraints>
+                <MD_Constraints>
+                    <useLimitation>
+                        <gco:CharacterString>The North Carolina Department of Environmental Quality shall not be held liable for any errors in this metadata. This includes errors of omission, commission, errors concerning the content of the data, and relative and positional accuracy of the data. These data cannot be construed to be a legal document. Primary sources from which these data were compiled must be consulted for verification of information contained in these data.</gco:CharacterString>
+                    </useLimitation>
+                </MD_Constraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>NC DEQ staff have compiled this dataset to the best of their abilities using the resources available to them. NC DEQ neither verifies nor guarantees the accuracy, reliability, or completeness of any data provided. NC DEQ provides this data without warranty of any kind whatsoever, either express or implied. NC DEQ shall not be liable for incidental, consequential, or special damages arising out of the use of any data provided by NC DENR.</gco:CharacterString>
+                    </useLimitation>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_SecurityConstraints>
+                    <classification gco:nilReason="missing"/>
+                    <classificationSystem>
+                        <gco:CharacterString>FIPS Pub 199</gco:CharacterString>
+                    </classificationSystem>
+                    <handlingDescription>
+                        <gco:CharacterString>Standard Technical Controls</gco:CharacterString>
+                    </handlingDescription>
+                </MD_SecurityConstraints>
+            </resourceConstraints>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector" codeSpace="ISOTC211/19115">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            <language>
+                <LanguageCode codeList="http://www.loc.gov/standards/iso639-2/php/code_list.php" codeListValue="eng" codeSpace="ISO639-2">eng</LanguageCode>
+            </language>
+            <characterSet>
+                <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="ISOTC211/19115">utf8</MD_CharacterSetCode>
+            </characterSet>
+            <topicCategory>
+                <MD_TopicCategoryCode>environment</MD_TopicCategoryCode>
+            </topicCategory>
+            <topicCategory>
+                <MD_TopicCategoryCode>health</MD_TopicCategoryCode>
+            </topicCategory>
+            <environmentDescription>
+                <gco:CharacterString>ESRI ArcCatalog 9.3.1.3000</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>-83.966448</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>-75.54345</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>33.9127</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>36.547801</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                </EX_Extent>
+            </extent>
+            <extent>
+                <EX_Extent>
+                    <description>
+                        <gco:CharacterString>Inventory of regulated sites</gco:CharacterString>
+                    </description>
+                    <temporalElement>
+                        <EX_TemporalExtent>
+                            <extent>
+                                <gml:TimeInstant gml:id="N65898">
+                                    <gml:timePosition>2015-11-06</gml:timePosition>
+                                </gml:TimeInstant>
+                            </extent>
+                        </EX_TemporalExtent>
+                    </temporalElement>
+                </EX_Extent>
+            </extent>
+            <supplementalInformation>
+                <gco:CharacterString>The Inactive Hazardous Sites Branch (IHSB), within the Superfund Section of the DWM, is responsible for oversight and approval of the assessment and remediation of all historical, and any recent accidental releases of hazardous substances and pollutants with the exceptions outlined below. The Branch oversees remedial actions, conducts any necessary enforcement of assessment and remediation at sites deemed to be a priority, and conducts the work itself at orphaned sites when state resources are available for such. For more information regarding the IHSB program, please visit http://portal.ncdenr.org/web/wm/sf/ihshome</gco:CharacterString>
+            </supplementalInformation>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributor>
+                <MD_Distributor>
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <individualName>
+                                <gco:CharacterString>Dean Grantham</gco:CharacterString>
+                            </individualName>
+                            <organisationName>
+                                <gco:CharacterString>N.C. DEQ</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>GIS Coordinator</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                    <phone>
+                                        <CI_Telephone>
+                                            <voice>
+                                                <gco:CharacterString>(919) 707-8961</gco:CharacterString>
+                                            </voice>
+                                        </CI_Telephone>
+                                    </phone>
+                                    <address>
+                                        <CI_Address>
+                                            <deliveryPoint>
+                                                <gco:CharacterString>217 W Jones St</gco:CharacterString>
+                                            </deliveryPoint>
+                                            <city>
+                                                <gco:CharacterString>Raleigh</gco:CharacterString>
+                                            </city>
+                                            <administrativeArea>
+                                                <gco:CharacterString>NC</gco:CharacterString>
+                                            </administrativeArea>
+                                            <postalCode>
+                                                <gco:CharacterString>27603</gco:CharacterString>
+                                            </postalCode>
+                                            <country>
+                                                <Country codeList="http://www.iso.org/iso/country_codes/iso_3166_code_lists.htm" codeListValue="US" codeSpace="ISO3166-1">US</Country>
+                                            </country>
+                                            <electronicMailAddress>
+                                                <gco:CharacterString>dean.grantham@ncdenr.gov</gco:CharacterString>
+                                            </electronicMailAddress>
+                                        </CI_Address>
+                                    </address>
+                                    <contactInstructions>
+                                        <gco:CharacterString>http://portal.ncdenr.org/web/wm</gco:CharacterString>
+                                    </contactInstructions>
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="ISOTC211/19115">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                </MD_Distributor>
+            </distributor>
+            <transferOptions>
+                <MD_DigitalTransferOptions>
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL>http://deq.nc.gov/about/divisions/waste-management/superfund-section/inactive-hazardous-sites-program</URL>
+                            </linkage>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <level>
+                        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="ISOTC211/19115">dataset</MD_ScopeCode>
+                    </level>
+                </DQ_Scope>
+            </scope>
+            <report>
+                <DQ_ConceptualConsistency>
+                    <measureDescription>
+                        <gco:CharacterString>Locations from the database have been tested for integrity in a number of processes, described separately in this file. Location data were plotted against the NC state county and municipal boundaries and checked for agreement. Distances calculated to be greater than 1000 feet between existing data and new data created through a number of mass geocodings were used to identify sites needing review of paper file records. Locations were corrected if necessary using on screen placement and Acme Mapper. Sites with geolocation method “Unknown or supplied by others” and having no street address, had their locations rechecked against paper file maps and corrected if necessary using on screen placement in Acme Mapper</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_ConceptualConsistency>
+            </report>
+            <report>
+                <DQ_CompletenessOmission>
+                    <measureDescription>
+                        <gco:CharacterString>All open case inactive hazardous sites that fall under the responsible oversight of the Inactive Hazardous Sites Branch at the time of this publication are included.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_CompletenessOmission>
+            </report>
+            <report>
+                <DQ_AbsoluteExternalPositionalAccuracy>
+                    <measureDescription>
+                        <gco:CharacterString>Vary by collection methodology. Please refer to the Location Methodology the internal metadata field GEOLOCATIO for details.</gco:CharacterString>
+                    </measureDescription>
+                    <result gco:nilReason="missing"/>
+                </DQ_AbsoluteExternalPositionalAccuracy>
+            </report>
+            <lineage>
+                <LI_Lineage>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Updated metadata (eliminated statement regarding errors and updated to: "The integrity test revealed sites plotting out of state or county. All of these coordinates were evaluated and corrected.")</gco:CharacterString>
+                            </description>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Data excerpt including 1906 records depicting inactive hazardous sites was acquired from Inactive Hazardous Sites Branch. Among other fields, the excerpt contains the recorded location methodology and site identifier.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2009-05-27T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Integrity tests against the NC county boundaries layer (see description of source data within this metadata under the Data Quality Information section) indicated suspect location data for 52 of the 1906 sites. All of these coordinates were evaluated and corrected by IHS staff.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2009-06-01T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>The shape file IH_Sites was created from the X/Y data using ESRI ArcMap 9.2 SP6.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2009-06-01T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Updated from database</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2010-07-09T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Metadata verified; published</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2010-07-28T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Projected to NAD 83 State Plane (meters)</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2010-07-28T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Updated from database</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2010-11-04T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Updated layer; updated metadata. NOTE: Updated layer includes sites with open cases only</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2012-08-03T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Reviewed paper file maps for sites with no numeric street address, where those sites plot outside correct county boundaries, or where locations plot greater than 10 miles outside correct municipal boundaries. Locations were rechecked against paper file maps and corrected if necessary using on screen placement in Acme Mapper. from database</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2013-04-14T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Reviewed paper file maps for sites with no numeric street address. Locations were rechecked against paper file maps and corrected if necessary using on screen placement in Acme Mapper.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2013-04-26T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Reviewed sites with geolocation method “unknown or supplied by others” and had a numeric street address. Conducted mass geocoding on address field and compared distance between the two sets of coordinates. If &gt; 1000 feet apart, coordinates were rechecked against paper file maps and corrected if necessary using on screen placement in Acme Mapper. If those sites were also residential properties and plotted &gt; 150 feet apart, locations were rechecked against paper file maps and corrected if necessary. In addition, the newly generated geocoded coordinates plotting &lt;100 feet from the Unknowns, were uploaded so as to have an improved geolocation method.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2013-07-19T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Reviewed sites with geolocation method “Unknown or supplied by others” and having no street address, along with some sites with no DWQ file records. Locations were rechecked against paper file maps and corrected if necessary using on screen placement in Acme Mapper.</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2013-11-12T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Exported data for GIS data layer update</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2013-12-18T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Generated GIS data layer from export</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2014-03-07T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Update metadata</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2014-03-08T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Generated GIS data layer from export; updated metadata</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2014-08-28T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Generated GIS data layer from export (10/10/14); updated metadata</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2014-10-24T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                    <processStep>
+                        <LI_ProcessStep>
+                            <description>
+                                <gco:CharacterString>Generated GIS data layer from 010715 export; updated metadata</gco:CharacterString>
+                            </description>
+                            <dateTime>
+                                <gco:DateTime>2015-01-07T00:00:00</gco:DateTime>
+                            </dateTime>
+                        </LI_ProcessStep>
+                    </processStep>
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+    <metadataMaintenance>
+        <MD_MaintenanceInformation>
+            <maintenanceAndUpdateFrequency>
+                <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="unknown" codeSpace="ISOTC211/19115">unknown</MD_MaintenanceFrequencyCode>
+            </maintenanceAndUpdateFrequency>
+            <dateOfNextUpdate>
+                <gco:Date>2019-11-06</gco:Date>
+            </dateOfNextUpdate>
+        </MD_MaintenanceInformation>
+    </metadataMaintenance>
+</MD_Metadata>
