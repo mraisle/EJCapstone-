@@ -17,3 +17,11 @@ all <- read.csv(here("geocoded_csv/justvariables_all.csv"))
 all$Arsenic_Iod == 1
 
 sum(all$Arsenic_Iod == 1, na.rm=TRUE)
+
+A0 <- all%>%
+  filter(Arsenic_Iod == 0)
+
+A1 <- all%>%
+  filter(Arsenic_Iod == 1)
+
+nrow(A1)/(nrow(A1)+nrow(A0))*100
