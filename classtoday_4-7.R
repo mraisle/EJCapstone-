@@ -16,6 +16,8 @@ library(ggpubr)
 #get out data 
 
 EJ <- read.csv(here("4-07forclass.csv"))
+
+
 #colnames(EJ)[18] <- "minoritybin"
 #colnames(EJ)[20] <- "lowincomebin"
 #colnames(EJ)[23] <- "Edubin"
@@ -42,4 +44,61 @@ averageminor
 
 #countif 
 
-percentminority <- count
+x <- c(EJ$minoritybin)
+count <- 0
+for (val in x) {
+  if(val %% 2 == 0)  count = count+1
+}
+print(count)
+
+
+
+
+#minority Binary with EJ 
+ozone <- cor.test(EJ$minoritybin, EJ$Ozone..ppb., 
+                  method = "pearson")
+ozone
+
+PMmin <- cor.test(EJ$minoritybin, EJ$Particulate.Matter..PM.2.5.in.ug.m3., 
+               method = "pearson")
+PMmin
+
+natadmin <- cor.test(EJ$minoritybin, EJ$NATA.Diesel.PM..ug.m3., 
+                  method = "pearson")
+natadmin
+
+nataairmin <- cor.test(EJ$minoritybin, EJ$NATA.Air.Toxics.Cancer.Risk..risk.per.MM., 
+                    method = "pearson")
+nataairmin
+
+
+natahazmin <- cor.test(EJ$minoritybin, EJ$NATA.Respiratory.Hazard.Index, 
+                    method = "pearson")
+natahazmin
+
+
+hazmin <- cor.test(EJ$minoritybin, EJ$Hazardous.Waste.Proximity..facility.count.km.distance., 
+                method = "pearson")
+hazmin
+
+
+RMPmin <- cor.test(EJ$minoritybin, EJ$RMP.Proximity..facility.count.km.distance., 
+                method = "pearson")
+RMPmin
+
+
+leadmin <- cor.test(EJ$minoritybin, EJ$Lead.Paint.Indicator....pre.1960s.housing., 
+                 method = "pearson")
+leadmin
+
+
+supermin <- cor.test(EJ$minoritybin, EJ$Superfund.Proximity..site.count.km.distance., 
+                  method = "pearson")
+supermin
+
+
+arsenic <- cor.test(EJ$minoritybin, EJ$Arsenic.RNG, 
+                     method = "pearson")
+arsenic
+
+
