@@ -105,7 +105,7 @@ arsenic
 
 #testing logit regression 
 
-regression.object <- glm(Manganese.RNG ~ minoritybin + lowincomebin + Edubin, family="binominal",
+regression.object <- glm(Manganese.RNG ~ minoritybin * lowincomebin, binominal,
                          data = EJ)
 summary(regression.object)
 
