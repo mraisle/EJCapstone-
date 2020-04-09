@@ -12,11 +12,13 @@ library(viridis)
 library(grid)
 library(gridExtra)
 library(ggpubr)
+library(glmnet)
+
 
 #get out data 
 
 EJ <- read.csv(here("4-07forclass.csv"))
-
+EJ <- EJ[1:440,]
 
 #colnames(EJ)[18] <- "minoritybin"
 #colnames(EJ)[20] <- "lowincomebin"
@@ -51,8 +53,8 @@ for (val in x) {
 }
 print(count)
 
-
-
+trueCount <- 440 - count
+trueCount
 
 #minority Binary with EJ 
 ozone <- cor.test(EJ$minoritybin, EJ$Ozone..ppb., 
@@ -101,4 +103,9 @@ arsenic <- cor.test(EJ$minoritybin, EJ$Arsenic.RNG,
                      method = "pearson")
 arsenic
 
+#testing logit regression 
+
+regression.object <- glm(Manganese.RNG ~ minoritybin + lowincomebin + Edubin, family="binominal",
+                         data = EJ)
+summary(regression.object)
 
