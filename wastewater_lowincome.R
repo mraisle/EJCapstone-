@@ -15,7 +15,7 @@ library(ggpubr)
 
 #get out data 
 
-EJ <- read.csv(here("onlyEJscreen_master.csv"))
+EJ1 <- read.csv(here("onlyEJscreen_master.csv"))
 colnames(EJ)[23] <- "wastewater"
 colnames(EJ)[24] <- "DemIndex"
 
