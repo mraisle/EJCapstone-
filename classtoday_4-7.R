@@ -17,7 +17,7 @@ library(glmnet)
 
 #get out data 
 
-EJ2 <- read.csv(here("4-07forclass.csv"))
+EJ2 <- read.csv(here("EJdata_allbins.csv"))
 EJ2 <- EJ2[1:440,]
 
 #colnames(EJ)[18] <- "minoritybin"
@@ -67,6 +67,42 @@ print(count)
 
 trueCountedu <- 440 - count
 trueCountedu
+
+#countiflowincome
+
+x <- c(EJ2$lowincomebincorrected)
+count <- 0
+for (val in x) {
+  if(val %% 2 == 0)  count = count+1
+}
+print(count)
+
+trueCountlow <- 440 - count
+trueCountlow
+
+#countifdemindex
+
+x <- c(EJ2$demoindexbin)
+count <- 0
+for (val in x) {
+  if(val %% 2 == 0)  count = count+1
+}
+print(count)
+
+trueCountdemo <- 440 - count
+trueCountdemo
+
+#countifover64
+
+x <- c(EJ2$X64bin)
+count <- 0
+for (val in x) {
+  if(val %% 2 == 0)  count = count+1
+}
+print(count)
+
+trueCount64 <- 440 - count
+trueCount64
 
 
 #minority Binary with EJ2 
