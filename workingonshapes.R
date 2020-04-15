@@ -11,33 +11,33 @@ library(ggpubr)
 library(sf)
 
 
-NH <-  st_read(here(
+#NH <-  st_read(here(
   "NH_gis/nonitpb_NH.shp"))
 
-HERT <-  st_read(here(
+#HERT <-  st_read(here(
   "HERT_gis/nonitpb_HERT.shp"))
 
-HAL <-  st_read(here(
+#HAL <-  st_read(here(
   "HAL_gis/nonitpb_HAL.shp"))
 
-colnames(NH)
+#colnames(NH)
 
-colnames(HERT)
+#colnames(HERT)
 
-colnames(HAL)
+#colnames(HAL)
 
 #cut out accessory colnames 
 
-HAL2 <- HAL[ -c(90:91) ]
+#HAL2 <- HAL[ -c(90:91) ]
 
 
-HERT2 <- HERT[-c(92:93)]
+#HERT2 <- HERT[-c(92:93)]
 
 
-together <- rbind(NH,HAL2,HERT2)
+#together <- rbind(NH,HAL2,HERT2)
 
 
-write_sf(together, here("all3counties.shp"))
+#write_sf(together, here("all3counties.shp"))
 
 
 #joining the .csv to the together shapefile 
@@ -50,18 +50,18 @@ all <- st_read(here('all3counties.shp'))
 
 csv <- read.csv(here("FINAL_csv_Master Spring 2020 Capstone Spreadsheet (2).csv"))
 
-csv2 <- csv %>%
+#csv2 <- csv %>%
   select(-c(Student))
 
 total <- merge(all,csv,by="Match_addr")
 
-total2 <- total %>%
+#total2 <- total %>%
   select(-c(Student))
 
 
 
 
 
-write_sf(total, here("allcountiesalldata.shp"))
+#write_sf(total, here("allcountiesalldata.shp"))
 
 
